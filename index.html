@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>آموزش هوش مصنوعی | دوره‌های تخصصی</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <span class="logo-icon">AI</span>
+      <span>آموزش هوش مصنوعی</span>
+    </div>
+    <nav>
+      <a href="#courses">دوره‌ها</a>
+      <a href="#about">درباره</a>
+      <a href="#contact">تماس</a>
+    </nav>
+    <button class="header-btn" onclick="document.getElementById('courses').scrollIntoView({behavior:'smooth'})">
+      شروع یادگیری
+    </button>
+  </header>
+
+  <section class="hero">
+    <h1>آینده را با هوش مصنوعی بساز</h1>
+    <p>دوره‌های تخصصی و پروژه‌محور هوش مصنوعی، از یادگیری ماشین تا شبکه‌های عصبی و مدل‌های زبانی بزرگ — همه در یک مسیر یادگیری.</p>
+    <div class="hero-btns">
+      <button class="btn-primary" onclick="document.getElementById('courses').scrollIntoView({behavior:'smooth'})">
+        مشاهده دوره‌ها
+      </button>
+      <button class="btn-secondary" onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})">
+        بیشتر بدانید
+      </button>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="stat-item"><h3>+۵۰۰۰</h3><span>دانشجوی فعال</span></div>
+    <div class="stat-item"><h3>+۲۵</h3><span>دوره تخصصی</span></div>
+    <div class="stat-item"><h3>۹۸٪</h3><span>رضایت دانشجویان</span></div>
+    <div class="stat-item"><h3>+۱۰</h3><span>سال تجربه</span></div>
+  </section>
+
+  <section class="section" id="courses">
+    <h2 class="section-title">دوره‌های هوش مصنوعی</h2>
+    <p class="section-subtitle">مسیر یادگیری خود را انتخاب کنید و از صفر تا پیشرفته پیش بروید</p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-thumb">🤖</div>
+        <div class="card-body">
+          <h3>مبانی هوش مصنوعی</h3>
+          <p>آشنایی با مفاهیم پایه، تاریخچه و کاربردهای هوش مصنوعی در دنیای امروز.</p>
+          <div class="card-meta"><span class="tag">مقدماتی</span><span>۱۲ ساعت</span></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-thumb">📊</div>
+        <div class="card-body">
+          <h3>یادگیری ماشین</h3>
+          <p>آموزش الگوریتم‌های یادگیری نظارت‌شده و بدون نظارت با پایتون و scikit-learn.</p>
+          <div class="card-meta"><span class="tag">متوسط</span><span>۲۴ ساعت</span></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-thumb">🧠</div>
+        <div class="card-body">
+          <h3>شبکه‌های عصبی و یادگیری عمیق</h3>
+          <p>ساخت و آموزش شبکه‌های عصبی با TensorFlow و PyTorch به صورت پروژه‌محور.</p>
+          <div class="card-meta"><span class="tag">پیشرفته</span><span>۳۰ ساعت</span></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-thumb">💬</div>
+        <div class="card-body">
+          <h3>مدل‌های زبانی بزرگ (LLM)</h3>
+          <p>کار با مدل‌های زبانی، مهندسی پرامپت و ساخت دستیار هوشمند سفارشی.</p>
+          <div class="card-meta"><span class="tag">پیشرفته</span><span>۲۰ ساعت</span></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-thumb">👁️</div>
+        <div class="card-body">
+          <h3>بینایی ماشین</h3>
+          <p>پردازش تصویر، تشخیص اشیا و پیاده‌سازی پروژه‌های واقعی با OpenCV.</p>
+          <div class="card-meta"><span class="tag">متوسط</span><span>۱۸ ساعت</span></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-thumb">🚀</div>
+        <div class="card-body">
+          <h3>پروژه‌محور: هوش مصنوعی کاربردی</h3>
+          <p>ساخت یک محصول واقعی با هوش مصنوعی از ایده تا استقرار نهایی.</p>
+          <div class="card-meta"><span class="tag">پیشرفته</span><span>۲۵ ساعت</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="about">
+      <h2>چرا این مسیر یادگیری؟</h2>
+      <p>
+        این مجموعه با تمرکز بر یادگیری عملی و پروژه‌محور طراحی شده است.
+        به جای حفظ کردن تئوری، شما در هر دوره یک پروژه واقعی می‌سازید و
+        مهارت‌هایی را می‌آموزید که مستقیماً در بازار کار هوش مصنوعی قابل استفاده هستند.
+        محتوای دوره‌ها به‌روز، کاربردی و همراه با پشتیبانی مستمر ارائه می‌شود.
+      </p>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>با ما در ارتباط باشید</h2>
+    <p>برای مشاوره رایگان و انتخاب مسیر یادگیری مناسب با ما تماس بگیرید</p>
+    <div class="contact-info">
+      <div>📧 info@example.com</div>
+      <div>📱 ۰۹۱۲ ۰۰۰ ۰۰۰۰</div>
+      <div>💬 پشتیبانی تلگرام</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© ۱۴۰۴ تمامی حقوق محفوظ است | <a href="#">آموزش هوش مصنوعی</a></p>
+  </footer>
+
+</body>
+</html>
